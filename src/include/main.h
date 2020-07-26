@@ -1,0 +1,1 @@
+void terminate(int exitcode);
