@@ -4,5 +4,5 @@ rvm:
  - GLAD
  - CGLM
 before_install:
- - chmod -x configure
+ - chmod +x configure
 os: ubuntu
