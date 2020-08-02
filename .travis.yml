@@ -6,7 +6,11 @@ rvm:
 before_install:
  - sudo apt-get update
  - sudo apt-get -y install libglew-dev
- - sudo apt-get -y install libglfw-dev
+ - git clone https://github.com/glfw/glfw
+ - cd glfw
+ - cmake .
+ - make
+ - make install
  - ls /usr/bin/include | grep glfw
  - chmod +x configure
 os: ubuntu
