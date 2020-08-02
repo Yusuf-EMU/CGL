@@ -16,5 +16,5 @@ before_install:
  - cmake .
  - make
  - sudo make install
- - chmod +x configure
+ - chmod +x ./configure
 os: ubuntu
