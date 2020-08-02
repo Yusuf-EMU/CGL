@@ -7,5 +7,6 @@ before_install:
  - sudo apt-get update
  - sudo apt-get -y install libglew-dev
  - sudo apt-get -y install libglfw-dev
+ - ls /usr/bin/include | grep glfw
  - chmod +x configure
 os: ubuntu
