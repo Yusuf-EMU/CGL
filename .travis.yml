@@ -10,7 +10,6 @@ before_install:
  - cd glfw
  - cmake .
  - make
- - make install
- - ls /usr/bin/include | grep glfw
+ - sudo make install
  - chmod +x configure
 os: ubuntu
