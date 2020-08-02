@@ -2,3 +2,4 @@
 cgl
 *.o
 src/*.o
+configure.c
