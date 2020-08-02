@@ -1,7 +1,7 @@
 exec = cgl
 sources = $(wildcard src/*.c)
 objects = $(sources:.c=.o)
-flags = -g -I/usr/local/include -L/usr/local/lib -lGLFW -ldl -lm -lGLEW -lGLU -lGL -lX11 -pthread
+flags = -g 
 
 $(exec): $(objects)
 	gcc $(objects) $(flags) -o $(exec)
