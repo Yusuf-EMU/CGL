@@ -3,3 +3,6 @@ rvm:
  - GLEW
  - GLAD
  - CGLM
+before_install:
+ - chmod -x configure
+os: ubuntu
