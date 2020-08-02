@@ -3,8 +3,6 @@ rvm:
  - libglfw-dev
  - libglew-dev
  - cglm
-before_install:
- - chmod +x install_deps.sh
- - sudo sh install_deps.sh
- - chmod +x configure
+script:
+ - make && make install
 os: ubuntu
