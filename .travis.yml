@@ -6,6 +6,7 @@ rvm:
 before_install:
  - sudo apt-get update
  - sudo apt-get -y install libglew-dev
+ - sudo apt-get -y install libxrandr-dev
  - git clone https://github.com/glfw/glfw
  - cd glfw
  - cmake .
